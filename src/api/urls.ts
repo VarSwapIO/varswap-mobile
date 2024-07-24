@@ -1,0 +1,22 @@
+enum Urls {
+  ACTIVE_2FA = "user/auth/active2FA",
+  DEPOSIT_TOKEN_ADDRESS = "onchainWallet/detail",
+  DEPOSIT_TOKEN_NETWORK = "onchainToken/depositToken",
+  ENABLE_2FA = "user/auth/enable2FA",
+  GET_NOTIFICATIONS_LIST = "notifications/getList",
+  LOGIN = "login",
+  LOGIN_PROVIDER = "loginWithProvider",
+  LIST_TRANSACTIONS = "user/txns/getList",
+  PRE_BALANCE_ASSETS = "preBalance/getList",
+  PRE_BALANCE_TOTAL_TOKENS = "systemToken/preBalance",
+  REGISTER_DEVICE_TOKEN = "notifications/registerDevice",
+  READ_ALL = "notifications/markAsReadAll",
+  SEND_EMAIL_VERIFY = "sendEmailVerifyCode",
+  SEND_EMAIL_WITHDRAW = "user/auth/getOtpToWithdraw",
+  SYSTEM_TOKEN = "systemToken/getList",
+  UPDATE_PASSWORD = "updatePassword",
+  USER_VIEW = "user/view",
+  VERIFY_EMAIL = "verifyEmail",
+  WITHDRAW_EXTERNAL_TOKEN = "wallet/withdrawExternal",
+}
+export default Urls;

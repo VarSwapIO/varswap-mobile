@@ -1,0 +1,76 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true  ,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "components/*": [
+        "src/components/*"
+      ],
+      "screens/*": [
+        "src/screens/*"
+      ],
+      "app/*": [
+        "src/app/*"
+      ],
+      "features/*": [
+        "src/features/*"
+      ],
+      "styles/*": [
+        "src/styles/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "utils": [
+        "src/utils"
+      ],
+      "navigator/*": [
+        "src/navigator/*"
+      ],
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "entity/*": [
+        "src/entities/*"
+      ],
+      "type/*": [
+        "src/type/*"
+      ],
+      "api/*": [
+        "src/api/*"
+      ],
+      "hooks/*": [
+        "./src/hooks/*"
+      ],
+      "reducer/*": [
+        "./src/redux/reducer/*"
+      ],
+      "saga/*": [
+        "./src/redux/saga/*"
+      ],
+      "store/*": [
+        "./src/redux/store/*"
+      ],
+      "data/*": [
+        "src/data/*"
+      ],
+      "core/*": [
+        "src/core/*"
+      ],
+
+    }                               /* Skip type checking all .d.ts files. */
+  }
+}
